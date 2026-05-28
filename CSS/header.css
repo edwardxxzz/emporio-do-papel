@@ -45,27 +45,6 @@
     color: var(--bege-200);
     font-weight: 500;
     font-size: 0.9rem;
-    transition: var(--transition);
-    position: relative;
-}
-
-.nav a::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: var(--azul-300);
-    transition: var(--transition);
-}
-
-.nav a:hover {
-    color: var(--white);
-}
-
-.nav a:hover::after {
-    width: 100%;
 }
 
 .header-search {
@@ -98,10 +77,5 @@
     font-size: 0.85rem;
     font-weight: 600;
     cursor: pointer;
-    transition: var(--transition);
-}
-
-.search-btn:hover {
-    background-color: var(--azul-500);
 }
 
